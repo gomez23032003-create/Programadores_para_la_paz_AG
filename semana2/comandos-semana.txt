@@ -1,0 +1,6 @@
+mkdir
+cd
+nano preguntas-semana2.txt
+nano reflexion-semana2.txt
+nano comandos-semana2.txt
+
