@@ -1,0 +1,20 @@
+{
+  "name": "semana4",
+  "version": "1.0.0",
+  "description": "clase de node.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/gomez23032003-create/Programadores_para_la_paz_AG.git)"
+  },
+  "license": "MIT",
+  "author": "Programadores para la paz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
