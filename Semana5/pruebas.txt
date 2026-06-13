@@ -1,0 +1,3 @@
+Ruta 3000 / SERVIDOR ACTIVO
+Ruta Saludo / Saludo Comunidad 
+Ruta Mensaje Nombre / Sale el saludo a juan 

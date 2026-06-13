@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Pagina web para probar el POST
+    <script>
+        fetch("/reporte", {metohod:"POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    mensaje: "Finalizacion de la Tarea Semana 5",
+  })
+})})
+  .then(respuesta => response.json())
+  .then(data => {
+    alert.log("Respuesta del servidor:", data);
+  })
+  .catch(error => {
+    alert.error("Error:", error);
+  });
+    </script>
+</body>
+</html>
