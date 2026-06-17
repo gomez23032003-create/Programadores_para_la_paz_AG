@@ -1,0 +1,8 @@
+1. ¿Qué información muestra cada comando?
+uname -a: Muestra la información completa del sistema operativo y del núcleo (Kernel) de Linux. Incluye el nombre del sistema operativo, el nombre de host de la máquina (nodo), la versión y fecha de compilación del kernel, y la arquitectura del procesador (por ejemplo, x86_64 o aarch64).
+whoami: Muestra el nombre del usuario actual que tiene la sesión activa en la terminal (en el caso de Codespaces, suele ser vscode o root).
+
+2. ¿Por qué es útil conocer información del sistema al administrar un servidor?
+Compatibilidad de Software: Permite saber si un paquete, aplicación o dependencia es compatible con la arquitectura del procesador y la versión específica del Kernel.
+Gestión de Permisos y Seguridad: Conocer con qué usuario (whoami) estás ejecutando comandos evita errores críticos (como borrar archivos del sistema por accidente) y ayuda a auditorías de seguridad.
+Resolución de Problemas (Troubleshooting): Al reportar fallos o buscar parches de seguridad, lo primero que se requiere es la versión exacta del sistema para aplicar las actualizaciones correctas.
