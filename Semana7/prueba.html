@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="enviar()">Enviar Reporte</button>
+
+<script>
+function enviar() {
+  fetch('http://localhost:3000/reportes', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      tipo: 'Infraestructura',
+      descripcion: 'Daño en alumbrado público'
+    })
+  })
+  .then(res => res.json())
+  .then(data => console.log(data));
+}
+</script>
+
+</body>
+</html>
