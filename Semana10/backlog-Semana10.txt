@@ -1,0 +1,5 @@
+Como ciudadano, quiero reportar problemas de mi comunidad para que las autoridades puedan darles seguimiento.
+Como líder comunitario, quiero recibir notificaciones de nuevos reportes para coordinar acciones de manera oportuna.
+Como integrante de una veeduría, quiero consultar el estado de las denuncias para verificar que se les esté dando respuesta.
+Como ciudadano, quiero recibir avisos sobre reuniones y actividades de la comunidad para participar activamente.
+Como administrador de la plataforma, quiero organizar y priorizar los reportes para atender primero los casos más urgentes.
